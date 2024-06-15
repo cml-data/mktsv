@@ -2,7 +2,6 @@ import hashlib, base64, requests
 from github import Github
 
 PREFIX = 'https://raw.githubusercontent.com/cd-public/books/main/' # DONT scrape Gutenberg
-BK_DIR = '../books/'
 
 with open('books.tsv', 'w') as f:
     f.write('TsvHttpData-1.0\n')
